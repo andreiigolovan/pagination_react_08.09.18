@@ -1,0 +1,41 @@
+{
+  "name": "pagination_react_08.09.18",
+  "main": ".dev/build/index.js",
+  "dependencies": {
+    "prop-types": "^15.6.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "express": "^4.14.0",
+    "jquery": "^3.1.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-hot-loader": "^3.0.0",
+    "react-paginate": "^5.2.4",
+    "serve-static": "^1.11.1",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12",
+    "webpack-dev-middleware": "^3.0.1"
+  },
+  "scripts": {
+    "start": "npm run build",
+    "build": "webpack --config dev/webpack.config.js --mode=development  && node dev/server.js"
+  },
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/andreiigolovan/pagination_react_08.09.18.git"
+  },
+  "author": "andreii.golovan@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andreiigolovan/pagination_react_08.09.18/issues"
+  },
+  "homepage": "https://github.com/andreiigolovan/pagination_react_08.09.18#readme",
+  "description": ""
+}
